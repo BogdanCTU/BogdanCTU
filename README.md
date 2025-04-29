@@ -6,3 +6,5 @@
 - 💻 I'm able to work with a wide range of tools : Visual Studio - Unity 5.0 - Database Management (MS SQL, DBeaver) - Azure DevOps CI/DI ecc.
 - 👀 I’m looking to collaborate on 2/3d game projects
 - 🌎 My personal site: " https://www.todoranbogdan.com "
+
+![WebsiteGif.gif](/.Gifs/WebsiteGif.gif)
