@@ -7,4 +7,4 @@
 - 👀 I’m looking to collaborate on 2/3d game projects
 - 🌎 My personal site: " https://www.todoranbogdan.com "
 
-![WebsiteGif.gif](/.Gifs/WebsiteGif.gif)
+![WebsiteGif.gif](/Gifs/WebsiteGif.gif)
