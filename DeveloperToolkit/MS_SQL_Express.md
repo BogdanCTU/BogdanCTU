@@ -1,4 +1,4 @@
-# Microsoft SQL Server Express
+# Microsoft SQL Express
 
 ![MSSQLServerExpress.png](Images/MSSQLServerExpress.png)
 > _Image 1: MS SQL Server Manager sample_
@@ -32,10 +32,10 @@ I use SQL Server Express to:
 ## Tips & Tricks
 -   Enable **SQL Server Browser** service to allow network connections during development;
 -   Use **SSMS** for advanced query editing, execution plans, and database monitoring;
--   Set up **automatic backups** of your local databases to avoid losing test data; 
+-   Set up **automatic backups** of your local databases to avoid losing test data.
 
 ---
 
 ## Official Resources
--   [Official Website](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)  
--   [Documentation](https://docs.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16)  
+-   [Official Website](https://www.microsoft.com/en-us/sql-server/sql-server-downloads);
+-   [Documentation](https://docs.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16).
