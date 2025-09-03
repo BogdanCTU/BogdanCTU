@@ -1,8 +1,6 @@
----
-
 # Microsoft SQL Server Express
 
-![MSSQLServerExpress.png](./Images/MSSQLServerExpress.png)
+![MSSQLServerExpress.png](Images/MSSQLServerExpress.png)
 > _Image 1: MS SQL Server Manager sample_
 
 ---
@@ -41,5 +39,3 @@ I use SQL Server Express to:
 ## Official Resources
 -   [Official Website](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)  
 -   [Documentation](https://docs.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16)  
-
----
