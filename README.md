@@ -1,5 +1,3 @@
----
-
 # 👋 Hi, I’m Bogdan
 
 💼 **Software Engineer** at *Danieli Engineering Romania*  
@@ -10,13 +8,10 @@
 
 ### 📂 Developer Resources
 I’ve documented the applications and tools I use in my daily work:  
-👉 [Productivity Apps](./ProductivityApps/README.md)
 
 ---
 
 ### 🚀 Tech Stack
 - **Languages**: C#, C++, SQL, and more  
 - **Frameworks & Tools**: Visual Studio · Unity 2022 · Azure DevOps (CI/CD) · MS SQL · DBeaver  
-- **Expertise**: Software Development · Database Management · Front-End Game Development  
-
----
+- **Expertise**: Software Development · Database Management · Front-End Game Development
