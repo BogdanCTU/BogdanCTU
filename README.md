@@ -10,7 +10,7 @@
 
 ### 📂 Developer Resources
 I’ve documented the applications and tools I use in my daily work:  
-👉 [Productivity Apps](./ProductivityApps/README.md)
+👉 [Developer Toolkit](./DeveloperToolkit/README.md)
 
 ---
 
