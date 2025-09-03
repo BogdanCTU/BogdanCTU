@@ -1,6 +1,22 @@
-- 👋 Hi, I’m Bogdan
-- 💼 I'm a Software Engineer at Danieli Engineering Romania
-- 💼 I was a Junior Software Developer at Danieli Automation
-- 👨‍💼 I was an Unity Front-End Developer at Quadom Soft S.R.L.
-- 🌱 I develop software using C#, C++ and more
-- 💻 I'm able to work with a wide range of tools : Visual Studio - Unity 2022 - Database Management (MS SQL, DBeaver) - Azure DevOps CI/DI ecc.
+---
+
+# 👋 Hi, I’m Bogdan
+
+💼 **Software Engineer** at *Danieli Engineering Romania*  
+💼 Former **Junior Software Developer** at *Danieli Automation*  
+👨‍💻 Former **Unity Front-End Developer** at *Quadom Soft S.R.L.*  
+
+---
+
+### 📂 Developer Resources
+I’ve documented the applications and tools I use in my daily work:  
+👉 [Developer Toolkit](./ProductivityApps/README.md)
+
+---
+
+### 🚀 Tech Stack
+- **Languages**: C#, C++, SQL, and more  
+- **Frameworks & Tools**: Visual Studio · Unity 2022 · Azure DevOps (CI/CD) · MS SQL · DBeaver  
+- **Expertise**: Software Development · Database Management · Front-End Game Development  
+
+---
