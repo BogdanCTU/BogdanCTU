@@ -39,5 +39,4 @@ It helps me:
 
 ## Official Resources
 -    [Official Website](https://git-fork.com/);
--    [Documentation](https://git-fork.com/#features).
--    
+-    [Documentation](https://git-fork.com/#features). 
