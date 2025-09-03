@@ -1,5 +1,3 @@
----
-
 # Fork (Git Client)
 
 [![Fork GUI](https://git-fork.com/images/image1Win.jpg)](https://git-fork.com/)
@@ -42,5 +40,3 @@ It helps me:
 ## Official Resources
 -    [Official Website](https://git-fork.com/);
 -    [Documentation](https://git-fork.com/#features).
-
----
