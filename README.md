@@ -8,10 +8,11 @@
 
 ### 📂 Developer Resources
 I’ve documented the applications and tools I use in my daily work:  
+👉 [Developer Toolkit](./DeveloperToolkit/README.md)
 
 ---
 
 ### 🚀 Tech Stack
-- **Languages**: C#, C++, SQL, and more  
-- **Frameworks & Tools**: Visual Studio · Unity 2022 · Azure DevOps (CI/CD) · MS SQL · DBeaver  
-- **Expertise**: Software Development · Database Management · Front-End Game Development
+-    **Languages**: C#, C++, SQL, and more;
+-    **Frameworks & Tools**: Visual Studio · Unity 2022 · Azure DevOps (CI/CD) · MS SQL · DBeaver;
+-    **Expertise**: Software Development · Database Management · Front-End Game Development.
