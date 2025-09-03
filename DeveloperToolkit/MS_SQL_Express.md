@@ -2,7 +2,7 @@
 
 # Microsoft SQL Server Express
 
-![MS SQL Server Express](./Images/MSSQLServerExpress.png)
+![MS SQL Server Express](/DeveloperToolkit/Images/MSSQLServerExpress.png)
 > _Image 1: MS SQL Server Manager sample_
 
 ---
