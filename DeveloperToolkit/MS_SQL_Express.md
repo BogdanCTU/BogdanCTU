@@ -2,13 +2,15 @@
 
 # Microsoft SQL Server Express
 
-![MS SQL Server Express](/DeveloperToolkit/Images/MSSQLServerExpress.png)
+![MSSQLServerExpress.png](./Images/MSSQLServerExpress.png)
 > _Image 1: MS SQL Server Manager sample_
 
 ---
 
 ## Overview
+
 Microsoft SQL Server Express is a lightweight, free edition of Microsoft SQL Server designed for small-scale applications, development, and learning purposes.
+
 It provides a reliable relational database engine with many of the features of the full SQL Server editions, making it ideal for local development and testing environments.
 
 ---
