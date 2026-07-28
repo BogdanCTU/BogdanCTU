@@ -1,0 +1,242 @@
+<!-- Defines the scalable vector graphic properties and dependencies. -->
+<!-- xmlns specifies the standard XML namespace for SVG. -->
+<svg width="1180" height="610" viewBox="0 0 1180 610" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+    <!-- Defines reusable elements like styles, gradients, and filters. -->
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&amp;family=Inter:wght@400;500;600;700&amp;display=swap');
+            
+            .text-main { font-family: 'Inter', sans-serif; fill: #F8FAFC; }
+            .text-muted { font-family: 'Inter', sans-serif; fill: #94A3B8; }
+            .text-code { font-family: 'Fira Code', monospace; }
+            
+            /* Applies a hover effect to skill pills to slightly enlarge and glow. */
+            .pill {
+                transition: transform 0.3s ease, filter 0.3s ease;
+                transform-origin: center;
+                cursor: pointer;
+            }
+            .pill:hover {
+                transform: scale(1.05);
+                filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.6));
+            }
+
+            .social-icon {
+                transition: transform 0.3s ease, fill 0.3s ease;
+                cursor: pointer;
+            }
+            .social-icon:hover {
+                transform: translateY(-3px);
+                fill: #22D3EE;
+            }
+        </style>
+
+        <!-- Creates an animated gradient for the accent text and ASCII art. -->
+        <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#7C3AED">
+                <animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="8s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="50%" stop-color="#22D3EE">
+                <animate attributeName="stop-color" values="#22D3EE;#10B981;#7C3AED;#22D3EE" dur="8s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="100%" stop-color="#10B981">
+                <animate attributeName="stop-color" values="#10B981;#7C3AED;#22D3EE;#10B981" dur="8s" repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
+
+        <!-- Generates a noise texture for the background overlay. -->
+        <filter id="noise">
+            <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+            <feColorMatrix type="matrix" values="1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 0.05 0" />
+        </filter>
+
+        <!-- Applies a subtle blur to simulate glass reflection. -->
+        <filter id="glassBlur">
+            <feGaussianBlur stdDeviation="16" />
+        </filter>
+
+        <!-- Creates the typing animation masks for the rotating job titles. -->
+        <clipPath id="typing1">
+            <rect x="0" y="-20" width="0" height="40">
+                <animate attributeName="width" values="0;280;280;0;0;0" keyTimes="0;0.1;0.25;0.3;0.33;1" dur="12s" repeatCount="indefinite"/>
+            </rect>
+        </clipPath>
+        <clipPath id="typing2">
+            <rect x="0" y="-20" width="0" height="40">
+                <animate attributeName="width" values="0;0;0;280;280;0;0" keyTimes="0;0.33;0.35;0.45;0.58;0.63;1" dur="12s" repeatCount="indefinite"/>
+            </rect>
+        </clipPath>
+        <clipPath id="typing3">
+            <rect x="0" y="-20" width="0" height="40">
+                <animate attributeName="width" values="0;0;0;280;280;0" keyTimes="0;0.66;0.68;0.78;0.91;0.96" dur="12s" repeatCount="indefinite"/>
+            </rect>
+        </clipPath>
+
+        <!-- Masks the ASCII art to reveal it line-by-line upon loading. -->
+        <clipPath id="asciiReveal">
+            <rect x="0" y="0" width="400" height="0">
+                <animate attributeName="height" from="0" to="500" dur="2.5s" fill="freeze" />
+            </rect>
+        </clipPath>
+        
+        <!-- Masks the sequential reveal of the profile details. -->
+        <clipPath id="detailReveal">
+            <rect x="0" y="0" width="600" height="0">
+                <animate attributeName="height" from="0" to="400" dur="2.5s" begin="1s" fill="freeze" />
+            </rect>
+        </clipPath>
+    </defs>
+
+    <!-- Renders the dark background with subtle glowing orbs and noise. -->
+    <rect width="1180" height="610" rx="24" fill="#030712" />
+    <circle cx="200" cy="150" r="150" fill="#22D3EE" opacity="0.05" filter="url(#glassBlur)">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 30,40; 0,0" dur="10s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="900" cy="450" r="200" fill="#7C3AED" opacity="0.05" filter="url(#glassBlur)">
+        <animateTransform attributeName="transform" type="translate" values="0,0; -40,-30; 0,0" dur="12s" repeatCount="indefinite" />
+    </circle>
+    <rect width="1180" height="610" rx="24" fill="url(#noise)" style="mix-blend-mode: overlay;" />
+
+    <!-- Renders the moving scanline across the entire banner. -->
+    <rect width="1180" height="4" fill="rgba(34, 211, 238, 0.1)">
+        <animate attributeName="y" values="0;610;0" dur="8s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- LEFT PANEL: Animated ASCII Art & Cyber Terminal -->
+    <g transform="translate(40, 40)">
+        <rect width="410" height="530" rx="16" fill="#0F172A" opacity="0.8" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+        
+        <!-- Animates a floating motion for the ASCII art group. -->
+        <g clip-path="url(#asciiReveal)">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="6s" repeatCount="indefinite" />
+            
+            <text x="205" y="100" text-anchor="middle" class="text-code" font-size="14" font-weight="600" fill="url(#accentGradient)" style="letter-spacing: 2px;">
+                <tspan x="205" dy="20">      / \      </tspan>
+                <tspan x="205" dy="20">    / 0 1 \    </tspan>
+                <tspan x="205" dy="20">  / 1 0 1 0 \  </tspan>
+                <tspan x="205" dy="20">/ 0 1 0 1 0 1 \</tspan>
+                <tspan x="205" dy="20">|\ 1 0 1 0 1 /|</tspan>
+                <tspan x="205" dy="20">| 0\ 1 0 1 /0 |</tspan>
+                <tspan x="205" dy="20">| 1 0\ 1 /0 1 |</tspan>
+                <tspan x="205" dy="20">| 0 1 0|1 0 1 |</tspan>
+                <tspan x="205" dy="20"> \ 1 0 | 0 1 / </tspan>
+                <tspan x="205" dy="20">   \ 0 | 1 /   </tspan>
+                <tspan x="205" dy="20">     \ 1 /     </tspan>
+                <tspan x="205" dy="20">       V       </tspan>
+            </text>
+            <text x="205" y="400" text-anchor="middle" class="text-code" font-size="12" fill="#94A3B8">
+                <tspan x="205" dy="0">&gt; SYSTEM.INIT()</tspan>
+                <tspan x="205" dy="20">&gt; MODULES_LOADED: 100%</tspan>
+                <tspan x="205" dy="20">&gt; AWAITING_COMMAND<tspan fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>_</tspan></tspan>
+            </text>
+        </g>
+    </g>
+
+    <!-- RIGHT PANEL: Professional Terminal Information -->
+    <g transform="translate(480, 40)">
+        <rect width="660" height="530" rx="16" fill="#0F172A" opacity="0.8" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+        
+        <g transform="translate(40, 50)">
+            <text class="text-main" font-size="32" font-weight="700">Hi 👋 I'm Bogdan</text>
+            
+            <g transform="translate(0, 45)">
+                <text class="text-code" font-size="20" font-weight="500" fill="url(#accentGradient)" clip-path="url(#typing1)">Software Engineer</text>
+                <text class="text-code" font-size="20" font-weight="500" fill="url(#accentGradient)" clip-path="url(#typing2)">C# &amp; C++ Developer</text>
+                <text class="text-code" font-size="20" font-weight="500" fill="url(#accentGradient)" clip-path="url(#typing3)">System Integrator</text>
+                <!-- Typing cursor line -->
+                <rect x="0" y="-18" width="2" height="24" fill="#22D3EE">
+                    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+                    <animate attributeName="x" values="10; 210; 210; 10; 10; 10; 10; 210; 210; 10; 10; 10; 10; 200; 200; 10; 10" keyTimes="0; 0.1; 0.25; 0.3; 0.33; 0.331; 0.35; 0.45; 0.58; 0.63; 0.66; 0.661; 0.68; 0.78; 0.91; 0.96; 1" dur="12s" repeatCount="indefinite" />
+                </rect>
+            </g>
+
+            <g transform="translate(0, 90)" clip-path="url(#detailReveal)">
+                <text class="text-muted" font-size="15" font-weight="400">
+                    <tspan x="0" dy="24">🎯 Focus: Software Architecture &amp; Automation &amp; AI/ML</tspan>
+                    <tspan x="0" dy="24">💼 Current: Software Engineer @ Danieli Engineering</tspan>
+                    <tspan x="0" dy="24">📧 Email: b.c.todoran.u@gmail.com</tspan>
+                </text>
+            </g>
+
+            <g transform="translate(0, 240)">
+                <text class="text-main" font-size="16" font-weight="600" opacity="0">
+                    Skills
+                    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2s" fill="freeze" />
+                </text>
+                
+                <g transform="translate(0, 20)">
+                    <!-- Skill Pills row 1 -->
+                    <g class="pill" transform="translate(0, 0)">
+                        <rect width="60" height="32" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" />
+                        <text x="30" y="21" text-anchor="middle" class="text-main" font-size="13">C#</text>
+                    </g>
+                    <g class="pill" transform="translate(72, 0)">
+                        <rect width="65" height="32" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" />
+                        <text x="32.5" y="21" text-anchor="middle" class="text-main" font-size="13">C++</text>
+                    </g>
+                    <g class="pill" transform="translate(149, 0)">
+                        <rect width="65" height="32" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" />
+                        <text x="32.5" y="21" text-anchor="middle" class="text-main" font-size="13">Python</text>
+                    </g>
+                    <g class="pill" transform="translate(226, 0)">
+                        <rect width="75" height="32" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" />
+                        <text x="37.5" y="21" text-anchor="middle" class="text-main" font-size="13">SQL</text>
+                    </g>
+                    <g class="pill" transform="translate(313, 0)">
+                        <rect width="115" height="32" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" />
+                        <text x="57.5" y="21" text-anchor="middle" class="text-main" font-size="13">Git</text>
+                    </g>
+
+                    <!-- Skill Pills row 2 -->
+                    <g class="pill" transform="translate(0, 44)">
+                        <rect width="105" height="32" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" />
+                        <text x="52.5" y="21" text-anchor="middle" class="text-main" font-size="13">Antigravity</text>
+                    </g>
+                    <g class="pill" transform="translate(117, 44)">
+                        <rect width="80" height="32" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" />
+                        <text x="40" y="21" text-anchor="middle" class="text-main" font-size="13">PyCharm</text>
+                    </g>
+                    <g class="pill" transform="translate(209, 44)">
+                        <rect width="60" height="32" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" />
+                        <text x="30" y="21" text-anchor="middle" class="text-main" font-size="13">.NET</text>
+                    </g>
+                    <g class="pill" transform="translate(281, 44)">
+                        <rect width="70" height="32" rx="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" />
+                        <text x="35" y="21" text-anchor="middle" class="text-main" font-size="13">Ollama</text>
+                    </g>
+                </g>
+                
+                <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.5s" fill="freeze" />
+            </g>
+
+            <!-- Social Links / Icons -->
+			<g transform="translate(0, 390)">
+				
+				<!-- Links the LinkedIn icon to the target profile URL. -->
+				<a href="https://www.linkedin.com/in/ciprian-bogdan-t-8b705b220" target="_blank">
+					<g class="social-icon" fill="#94A3B8" transform="translate(0, 0)">
+						<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" transform="scale(1.2)" />
+					</g>
+				</a>
+
+				<!-- Links the itch.io icon to the target profile URL. -->
+				<a href="https://bogdanctu.itch.io/" target="_blank">
+					<g class="social-icon" fill="#94A3B8" transform="translate(50, 0)">
+						<path d="M2.223 0A2.22 2.22 0 0 0 0 2.223v19.554A2.22 2.22 0 0 0 2.223 24h19.554A2.22 2.22 0 0 0 24 21.777V2.223A2.22 2.22 0 0 0 21.777 0H2.223zm3.172 4.887h13.21c1.242 0 2.25 1.008 2.25 2.25v9.726a2.25 2.25 0 0 1-2.25 2.25H5.395a2.25 2.25 0 0 1-2.25-2.25V7.137a2.25 2.25 0 0 1 2.25-2.25zm.5 2.25v2.5h2.5v-2.5h-2.5zm6.5 0v2.5h2.5v-2.5h-2.5z" transform="scale(1.0)" />
+					</g>
+				</a>
+
+				<!-- Links the GitHub repository icon to the university study repository. -->
+				<a href="https://github.com/BogdanCTU/Applied-Computational-Intelligence-UBB" target="_blank">
+					<g class="social-icon" fill="#94A3B8" transform="translate(100, 0)">
+						<path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.113.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" transform="scale(1.2)" />
+					</g>
+				</a>
+
+				<!-- Applies a fade-in opacity animation to the social icons group. -->
+				<animate attributeName="opacity" from="0" to="1" dur="1s" begin="3s" fill="freeze" />
+			</g>
+        </g>
+    </g>
+</svg>
