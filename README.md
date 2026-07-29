@@ -15,11 +15,11 @@
 
 # 🛠️ Suggested Tools
 
-A curated collection of tools for **software development**, **Windows optimization**, **database management**, and **running AI locally**.
+A curated collection of tools for **software development**, **Windows optimization**, **database management** and **running AI locally**.
 
 ---
 
-## 🤖 Local AI & Development
+# 🤖 AI & Machine Learning
 
 ### 🦙 [Ollama](https://github.com/ollama/ollama)
 
@@ -45,103 +45,32 @@ Find which AI models your hardware can run efficiently.
 
 ---
 
-# 🪟 Windows Management
+### 💻 [Continue](https://github.com/continuedev/continue)
 
-### 📦 [UniGetUI](https://github.com/Devolutions/UniGetUI)
+An open-source AI coding assistant for modern development workflows.
 
-A graphical package manager for Windows.
+- 🤖 Supports local AI models through Ollama
+- 🧩 Integrates with VS Code and JetBrains IDEs
+- 🔒 Enables private AI-assisted programming
 
-- 📥 Install applications easily
-- 🔄 Update multiple programs at once
-- 🔌 Supports WinGet, Chocolatey, Scoop and more
-
-[![UniGetUI](https://opengraph.githubassets.com/1/Devolutions/UniGetUI)](https://github.com/Devolutions/UniGetUI)
+[![Continue](https://opengraph.githubassets.com/1/continuedev/continue)](https://github.com/continuedev/continue)
 
 ---
 
-### ⚙️ [Chris Titus Tech Windows Utility](https://github.com/ChrisTitusTech/winutil)
+### 🧠 [LM Studio](https://github.com/lmstudio-ai)
 
-A powerful Windows maintenance and optimization toolkit.
+A desktop application for running and managing local AI models.
 
-- 🚀 Performance tweaks
-- 🛠️ System fixes
-- 📦 Application installation
-- 🔐 Privacy and configuration settings
+- 🤖 Run LLMs locally with a graphical interface
+- 📦 Download and manage AI models easily
+- 🔌 Provides local API endpoints for applications
+- 🔒 Keeps AI workloads private on your machine
 
-[![Windows Utility](https://opengraph.githubassets.com/1/ChrisTitusTech/winutil)](https://github.com/ChrisTitusTech/winutil)
-
----
-
-# 🗄️ Database Tools
-
-### 🦫 [DBeaver](https://github.com/dbeaver/dbeaver)
-
-Universal database management platform.
-
-- 🗃️ Supports SQL Server, PostgreSQL, MySQL, SQLite and many others
-- 🔍 Query editor and database explorer
-- 📊 Data visualization and administration tools
-
-[![DBeaver](https://opengraph.githubassets.com/1/dbeaver/dbeaver)](https://github.com/dbeaver/dbeaver)
+[![LM Studio](https://opengraph.githubassets.com/1/lmstudio-ai/lmstudio)](https://github.com/lmstudio-ai)
 
 ---
 
-# 🌱 Git Tools
-
-### 🔧 [SourceGit](https://github.com/sourcegit-scm/sourcegit)
-
-A lightweight and modern Git GUI client.
-
-- 🌳 Visual repository history
-- 🔀 Branch and merge management
-- ⚡ Fast alternative to heavier Git clients
-
-[![SourceGit](https://opengraph.githubassets.com/1/sourcegit-scm/sourcegit)](https://github.com/sourcegit-scm/sourcegit)
-
----
-
-# 🖥️ System & Productivity Tools
-
-### ⚡ [Microsoft PowerToys](https://github.com/microsoft/PowerToys)
-
-A collection of advanced Windows utilities to improve productivity.
-
-- 🪟 Window management with FancyZones
-- 🔎 Fast file search with PowerToys Run
-- 🖼️ Image resizing and screen utilities
-- ⌨️ Keyboard customization and workflow improvements
-
-[![PowerToys](https://opengraph.githubassets.com/1/microsoft/PowerToys)](https://github.com/microsoft/PowerToys)
-
----
-
-### 📐 [Draw.io Desktop](https://github.com/jgraph/drawio-desktop)
-
-A powerful diagramming tool for software architecture and technical documentation.
-
-- 🏗️ Create architecture diagrams
-- 🔄 Design flowcharts and workflows
-- 📊 Supports UML, ER diagrams, BPMN and more
-- 💾 Works offline with local files
-
-[![Draw.io Desktop](https://opengraph.githubassets.com/1/jgraph/drawio-desktop)](https://github.com/jgraph/drawio-desktop)
-
----
-
-### 📱 [SCRCPY](https://github.com/Genymobile/scrcpy)
-
-Mirror and control Android devices directly from your computer.
-
-- 🔌 USB and wireless connection support
-- 🚀 Low latency screen mirroring
-- ⌨️ Keyboard and mouse control
-- 🎥 Screen recording capabilities
-
-[![SCRCPY](https://opengraph.githubassets.com/1/Genymobile/scrcpy)](https://github.com/Genymobile/scrcpy)
-
----
-
-# 🔒 Other Useful Tools (Closed Source)
+# 💻 Development Environment
 
 ### 🐍 [PyCharm](https://www.jetbrains.com/pycharm/)
 
@@ -168,13 +97,81 @@ An AI-powered development environment focused on modern software creation.
 
 ---
 
-### 🧠 [LM Studio](https://github.com/lmstudio-ai)
+### 📝 [Obsidian](https://obsidian.md/)
 
-A desktop application for running and managing local AI models.
+A powerful knowledge management and documentation tool.
 
-- 🤖 Run LLMs locally with a graphical interface
-- 📦 Download and manage AI models easily
-- 🔌 Provides local API endpoints for applications
-- 🔒 Keeps AI workloads private on your machine
+- 🧠 Create a personal developer knowledge base
+- 🔗 Link notes using a connected graph structure
+- 📚 Store technical documentation locally
+- 🔒 Markdown-based and privacy focused
 
-[![LM Studio](https://opengraph.githubassets.com/1/lmstudio-ai/lmstudio)](https://github.com/lmstudio-ai)
+[![Obsidian](https://opengraph.githubassets.com/1/obsidianmd/obsidian-releases)](https://obsidian.md/)
+
+---
+
+# 🪟 System Management
+
+### 📦 [UniGetUI](https://github.com/Devolutions/UniGetUI)
+
+A graphical package manager for Windows.
+
+- 📥 Install applications easily
+- 🔄 Update multiple programs at once
+- 🔌 Supports WinGet, Chocolatey, Scoop and more
+
+[![UniGetUI](https://opengraph.githubassets.com/1/Devolutions/UniGetUI)](https://github.com/Devolutions/UniGetUI)
+
+---
+
+### ⚙️ [Chris Titus Tech Windows Utility](https://github.com/ChrisTitusTech/winutil)
+
+A powerful Windows maintenance and optimization toolkit.
+
+- 🚀 Performance tweaks
+- 🛠️ System fixes
+- 📦 Application installation
+- 🔐 Privacy and configuration settings
+
+[![Windows Utility](https://opengraph.githubassets.com/1/ChrisTitusTech/winutil)](https://github.com/ChrisTitusTech/winutil)
+
+---
+
+### ⚡ [Microsoft PowerToys](https://github.com/microsoft/PowerToys)
+
+A collection of advanced Windows utilities to improve productivity.
+
+- 🪟 Window management with FancyZones
+- 🔎 Fast file search with PowerToys Run
+- 🖼️ Image resizing and screen utilities
+- ⌨️ Keyboard customization and workflow improvements
+
+[![PowerToys](https://opengraph.githubassets.com/1/microsoft/PowerToys)](https://github.com/microsoft/PowerToys)
+
+---
+
+# 🐳 Infrastructure & Architecture
+
+### 🐳 [Rancher Desktop](https://github.com/rancher-sandbox/rancher-desktop)
+
+A container management platform for local development.
+
+- 📦 Run Docker containers locally
+- ☸️ Supports Kubernetes workflows
+- 🔄 Alternative to Docker Desktop
+- 💻 Designed for developer environments
+
+[![Rancher Desktop](https://opengraph.githubassets.com/1/rancher-sandbox/rancher-desktop)](https://github.com/rancher-sandbox/rancher-desktop)
+
+---
+
+### 📐 [Draw.io Desktop](https://github.com/jgraph/drawio-desktop)
+
+A powerful diagramming tool for software architecture and technical documentation.
+
+- 🏗️ Create architecture diagrams
+- 🔄 Design flowcharts and workflows
+- 📊 Supports UML, ER diagrams, BPMN and more
+- 💾 Works offline with local files
+
+[![Draw.io Desktop](https://opengraph.githubassets.com/1/jgraph/drawio-desktop)](https://github.com/jgraph/drawio-desktop)
