@@ -99,3 +99,82 @@ A lightweight and modern Git GUI client.
 [![SourceGit](https://opengraph.githubassets.com/1/sourcegit-scm/sourcegit)](https://github.com/sourcegit-scm/sourcegit)
 
 ---
+
+# 🖥️ System & Productivity Tools
+
+### ⚡ [Microsoft PowerToys](https://github.com/microsoft/PowerToys)
+
+A collection of advanced Windows utilities to improve productivity.
+
+- 🪟 Window management with FancyZones
+- 🔎 Fast file search with PowerToys Run
+- 🖼️ Image resizing and screen utilities
+- ⌨️ Keyboard customization and workflow improvements
+
+[![PowerToys](https://opengraph.githubassets.com/1/microsoft/PowerToys)](https://github.com/microsoft/PowerToys)
+
+---
+
+### 📐 [Draw.io Desktop](https://github.com/jgraph/drawio-desktop)
+
+A powerful diagramming tool for software architecture and technical documentation.
+
+- 🏗️ Create architecture diagrams
+- 🔄 Design flowcharts and workflows
+- 📊 Supports UML, ER diagrams, BPMN and more
+- 💾 Works offline with local files
+
+[![Draw.io Desktop](https://opengraph.githubassets.com/1/jgraph/drawio-desktop)](https://github.com/jgraph/drawio-desktop)
+
+---
+
+### 📱 [SCRCPY](https://github.com/Genymobile/scrcpy)
+
+Mirror and control Android devices directly from your computer.
+
+- 🔌 USB and wireless connection support
+- 🚀 Low latency screen mirroring
+- ⌨️ Keyboard and mouse control
+- 🎥 Screen recording capabilities
+
+[![SCRCPY](https://opengraph.githubassets.com/1/Genymobile/scrcpy)](https://github.com/Genymobile/scrcpy)
+
+---
+
+# 🔒 Other Useful Tools (Closed Source)
+
+### 🐍 [PyCharm](https://www.jetbrains.com/pycharm/)
+
+A professional Python IDE by JetBrains.
+
+- 🧠 Advanced Python development environment
+- 🔍 Intelligent code analysis and refactoring
+- 🧪 Integrated testing and debugging tools
+- 📦 Supports scientific computing and web development
+
+[![PyCharm](https://opengraph.githubassets.com/1/JetBrains/intellij-community)](https://www.jetbrains.com/pycharm/)
+
+---
+
+### 🚀 [Antigravity IDE](https://antigravity.google/)
+
+An AI-powered development environment focused on modern software creation.
+
+- 🤖 AI-assisted coding workflows
+- 🧩 Intelligent development assistance
+- ⚡ Designed for faster prototyping and implementation
+
+[![Antigravity IDE](https://opengraph.githubassets.com/1/google)](https://antigravity.google/)
+
+---
+
+### 🧠 [LM Studio](https://github.com/lmstudio-ai)
+
+A desktop application for running and managing local AI models.
+
+- 🤖 Run LLMs locally with a graphical interface
+- 📦 Download and manage AI models easily
+- 🔌 Provides local API endpoints for applications
+- 🔒 Keeps AI workloads private on your machine
+
+[![LM Studio](https://opengraph.githubassets.com/1/lmstudio-ai/lmstudio)](https://github.com/lmstudio-ai)
