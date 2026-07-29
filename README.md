@@ -21,6 +21,15 @@ A curated collection of tools for **software development**, **Windows optimizati
 
 # 🤖 AI & Machine Learning
 
+<table>
+<tr>
+<td width="50%" align="center">
+
+[![Ollama](https://opengraph.githubassets.com/1/ollama/ollama)](https://github.com/ollama/ollama)
+
+</td>
+<td width="50%">
+
 ### 🦙 [Ollama](https://github.com/ollama/ollama)
 
 Run Large Language Models (LLMs) locally on your own hardware.
@@ -29,9 +38,15 @@ Run Large Language Models (LLMs) locally on your own hardware.
 - ⚡ Supports models like Llama, Qwen, DeepSeek, Mistral and more
 - 💻 Perfect for local AI assistants and coding workflows
 
-[![Ollama](https://opengraph.githubassets.com/1/ollama/ollama)](https://github.com/ollama/ollama)
+</td>
+</tr>
+</table>
 
 ---
+
+<table>
+<tr>
+<td width="50%">
 
 ### 🧠 [llmfit](https://github.com/AlexsJones/llmfit)
 
@@ -41,9 +56,25 @@ Find which AI models your hardware can run efficiently.
 - 📊 Estimates compatible LLM models
 - 🚀 Helps choose the right local AI setup
 
+</td>
+<td width="50%" align="center">
+
 [![llmfit](https://opengraph.githubassets.com/1/AlexsJones/llmfit)](https://github.com/AlexsJones/llmfit)
 
+</td>
+</tr>
+</table>
+
 ---
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+[![Continue](https://opengraph.githubassets.com/1/continuedev/continue)](https://github.com/continuedev/continue)
+
+</td>
+<td width="50%">
 
 ### 💻 [Continue](https://github.com/continuedev/continue)
 
@@ -53,9 +84,15 @@ An open-source AI coding assistant for modern development workflows.
 - 🧩 Integrates with VS Code and JetBrains IDEs
 - 🔒 Enables private AI-assisted programming
 
-[![Continue](https://opengraph.githubassets.com/1/continuedev/continue)](https://github.com/continuedev/continue)
+</td>
+</tr>
+</table>
 
 ---
+
+<table>
+<tr>
+<td width="50%">
 
 ### 🧠 [LM Studio](https://github.com/lmstudio-ai)
 
@@ -66,11 +103,27 @@ A desktop application for running and managing local AI models.
 - 🔌 Provides local API endpoints for applications
 - 🔒 Keeps AI workloads private on your machine
 
+</td>
+<td width="50%" align="center">
+
 [![LM Studio](https://opengraph.githubassets.com/1/lmstudio-ai/lmstudio)](https://github.com/lmstudio-ai)
+
+</td>
+</tr>
+</table>
 
 ---
 
 # 💻 Development Environment
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+[![PyCharm](https://opengraph.githubassets.com/1/JetBrains/intellij-community)](https://www.jetbrains.com/pycharm/)
+
+</td>
+<td width="50%">
 
 ### 🐍 [PyCharm](https://www.jetbrains.com/pycharm/)
 
@@ -81,9 +134,15 @@ A professional Python IDE by JetBrains.
 - 🧪 Integrated testing and debugging tools
 - 📦 Supports scientific computing and web development
 
-[![PyCharm](https://opengraph.githubassets.com/1/JetBrains/intellij-community)](https://www.jetbrains.com/pycharm/)
+</td>
+</tr>
+</table>
 
 ---
+
+<table>
+<tr>
+<td width="50%">
 
 ### 🚀 [Antigravity IDE](https://antigravity.google/)
 
@@ -93,9 +152,25 @@ An AI-powered development environment focused on modern software creation.
 - 🧩 Intelligent development assistance
 - ⚡ Designed for faster prototyping and implementation
 
+</td>
+<td width="50%" align="center">
+
 [![Antigravity IDE](https://opengraph.githubassets.com/1/google)](https://antigravity.google/)
 
+</td>
+</tr>
+</table>
+
 ---
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+[![Obsidian](https://opengraph.githubassets.com/1/obsidianmd/obsidian-releases)](https://obsidian.md/)
+
+</td>
+<td width="50%">
 
 ### 📝 [Obsidian](https://obsidian.md/)
 
@@ -106,11 +181,22 @@ A powerful knowledge management and documentation tool.
 - 📚 Store technical documentation locally
 - 🔒 Markdown-based and privacy focused
 
-[![Obsidian](https://opengraph.githubassets.com/1/obsidianmd/obsidian-releases)](https://obsidian.md/)
+</td>
+</tr>
+</table>
 
 ---
 
 # 🪟 System Management
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+[![UniGetUI](https://opengraph.githubassets.com/1/Devolutions/UniGetUI)](https://github.com/Devolutions/UniGetUI)
+
+</td>
+<td width="50%">
 
 ### 📦 [UniGetUI](https://github.com/Devolutions/UniGetUI)
 
@@ -120,9 +206,15 @@ A graphical package manager for Windows.
 - 🔄 Update multiple programs at once
 - 🔌 Supports WinGet, Chocolatey, Scoop and more
 
-[![UniGetUI](https://opengraph.githubassets.com/1/Devolutions/UniGetUI)](https://github.com/Devolutions/UniGetUI)
+</td>
+</tr>
+</table>
 
 ---
+
+<table>
+<tr>
+<td width="50%">
 
 ### ⚙️ [Chris Titus Tech Windows Utility](https://github.com/ChrisTitusTech/winutil)
 
@@ -133,9 +225,25 @@ A powerful Windows maintenance and optimization toolkit.
 - 📦 Application installation
 - 🔐 Privacy and configuration settings
 
+</td>
+<td width="50%" align="center">
+
 [![Windows Utility](https://opengraph.githubassets.com/1/ChrisTitusTech/winutil)](https://github.com/ChrisTitusTech/winutil)
 
+</td>
+</tr>
+</table>
+
 ---
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+[![PowerToys](https://opengraph.githubassets.com/1/microsoft/PowerToys)](https://github.com/microsoft/PowerToys)
+
+</td>
+<td width="50%">
 
 ### ⚡ [Microsoft PowerToys](https://github.com/microsoft/PowerToys)
 
@@ -146,11 +254,22 @@ A collection of advanced Windows utilities to improve productivity.
 - 🖼️ Image resizing and screen utilities
 - ⌨️ Keyboard customization and workflow improvements
 
-[![PowerToys](https://opengraph.githubassets.com/1/microsoft/PowerToys)](https://github.com/microsoft/PowerToys)
+</td>
+</tr>
+</table>
 
 ---
 
 # 🐳 Infrastructure & Architecture
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+[![Rancher Desktop](https://opengraph.githubassets.com/1/rancher-sandbox/rancher-desktop)](https://github.com/rancher-sandbox/rancher-desktop)
+
+</td>
+<td width="50%">
 
 ### 🐳 [Rancher Desktop](https://github.com/rancher-sandbox/rancher-desktop)
 
@@ -161,9 +280,15 @@ A container management platform for local development.
 - 🔄 Alternative to Docker Desktop
 - 💻 Designed for developer environments
 
-[![Rancher Desktop](https://opengraph.githubassets.com/1/rancher-sandbox/rancher-desktop)](https://github.com/rancher-sandbox/rancher-desktop)
+</td>
+</tr>
+</table>
 
 ---
+
+<table>
+<tr>
+<td width="50%">
 
 ### 📐 [Draw.io Desktop](https://github.com/jgraph/drawio-desktop)
 
@@ -174,4 +299,11 @@ A powerful diagramming tool for software architecture and technical documentatio
 - 📊 Supports UML, ER diagrams, BPMN and more
 - 💾 Works offline with local files
 
+</td>
+<td width="50%" align="center">
+
 [![Draw.io Desktop](https://opengraph.githubassets.com/1/jgraph/drawio-desktop)](https://github.com/jgraph/drawio-desktop)
+
+</td>
+</tr>
+</table>
